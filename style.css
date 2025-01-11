@@ -1,0 +1,191 @@
+/* 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  body.light-mode {
+    background-color: #f4f4f4;
+    color: #000;
+  }
+  
+ 
+  body.dark-mode {
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  
+
+  .navbar {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  body.dark-mode .navbar {
+    background-color: #1e1e1e;
+  }
+  
+  .hero-section {
+    color: #000;
+    background: url('https://source.unsplash.com/1600x900/?weather') no-repeat center center/cover;
+    padding: 80px 0;
+    
+  }
+  
+  body.dark-mode .hero-section {
+    color: #fff;
+  }
+  
+
+  .card {
+    border: none;
+    border-radius: 15px;
+    background: #ffffff;
+    color: #000;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  body.dark-mode .card {
+    background: #2a2a2a;
+    color: #fff;
+  }
+  
+
+  #darkModeToggle {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+
+  footer {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  body.dark-mode footer {
+    background: #1e1e1e;
+    color: #fff;
+  }
+  
+
+  .input-group input {
+    color: #000;
+    background-color: #fff;
+  }
+  
+  body.dark-mode .input-group input {
+    color: #fff;
+    background-color: #2a2a2a;
+  }
+  
+
+  i {
+    font-size: 3rem;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  body.dark-mode i {
+    color: #1e90ff;
+  }
+  
+  
+  p, h1, h2, h3, h4, h5, h6, span, label {
+    color: inherit;
+  }
+  
+
+
+   */
+
+
+   /* General body styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode */
+body.light-mode {
+  background-color: #f4f8fc;
+  color: #333;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #1c1c1e;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+}
+
+body.dark-mode .navbar {
+  background: linear-gradient(90deg, #1e1e1e, #333);
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(120deg, #89cff0, #007bff);
+  height: 80vh;
+}
+
+body.dark-mode .hero-section {
+  background: linear-gradient(120deg, #1e1e1e, #333);
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 12px;
+  background: #fff;
+  color: #333;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode .card {
+  background: #2e2e30;
+  color: #fff;
+}
+
+/* Buttons */
+.btn-gradient-primary {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  border: none;
+  color: #fff;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-gradient-primary:hover {
+  background: linear-gradient(90deg, #0056b3, #004080);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+}
+
+body.dark-mode footer {
+  background: linear-gradient(90deg, #1e1e1e, #333);
+}
+
+/* Typography */
+.text-gradient-primary {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
